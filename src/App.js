@@ -10,9 +10,9 @@ class App extends React.Component {
     super();
     this.state = {
       albums: [
-        {id: 1, artist: "Vijay T", album_title: "Master", album_cover: "Music Anirudh R", songs: "Sound Track1",img:"https://th.bing.com/th/id/OIP.PG890d22ZaRLFfurF5o4rwAAAA?w=125&h=180&c=7&o=5&dpr=1.5&pid=1.7"},
-        {id: 2, artist: "Naveen Polishetty", album_title: "Jathirathnalu", album_cover: "Music Radhan", songs: "Sound Track2",img:"https://th.bing.com/th/id/OIP.UfqMH8JseiJlHF9HpsjVywHaHI?w=217&h=209&c=7&o=5&dpr=1.5&pid=1.7"},
-        {id: 3, artist: "Suriya", album_title: "Aakasam Nee Haddura", album_cover: "Music G. V. Prakash", songs: "Sound Track3",img:"https://th.bing.com/th/id/OIP.dqgZ9Xht3MKl8yHDrUpCbgHaGU?w=208&h=180&c=7&o=5&dpr=1.5&pid=1.7"},
+        {id: 1, artist: "NagaChaitanya", album_title: "Em mayaChesave", album_cover: "Music Anirudh R", songs: "Sound Track1",img:"https://images-na.ssl-images-amazon.com/images/I/71yWLsRv0bL._RI_.jpg"},
+        {id: 2, artist: "Akhil", album_title: "Hello", album_cover: "Music Anup", songs: "Sound Track2",img:"https://upload.wikimedia.org/wikipedia/en/3/3b/Hello_Telugu_film_poster.jpg"},
+        {id: 3, artist: "Suriya", album_title: "Aakasam Nee Haddura", album_cover: "Music G. V. Prakash", songs: "Sound Track3",img:"https://a10.gaanacdn.com/images/albums/92/2996192/crop_480x480_1605213981_2996192.jpg"},
       ],
       errorMsg: ''
     }
